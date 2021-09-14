@@ -1,0 +1,70 @@
+<!--
+    Author  : Yesha Jessica Pontoan
+    Date    : 6 September 2021
+    Exercise    : #6 Buat formulir seperti gambar terlampir
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form>
+            <fieldset>
+            <legend>Formulir Calon Pegawai</legend>
+            <p>
+                <label for="nama">Nama :</label>
+                <input type="text" name="nama" id="nama">
+            </p>
+            <p>
+                <label for="alamat">Alamat :</label>
+                <input type="text" name="alamat" id="alamat" checked>
+            </p>
+            <p>
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password">
+            </p>
+            <p>
+                <label for="jenkel">Jenis Kelamin</label>
+                <input type="radio" id="laki" name="jenkel" value="laki" checked>
+                <label for="laki">Laki-laki</label>
+                <input type="radio" id="perempuan" name="jenkel" value="perempuan">
+                <label for="perempuan">Perempuan</label>
+            </p>
+            <p>
+                <label for="bah">Bahasa pemrograman yang dikuasai :</label>
+                <input type="checkbox" id="web" name="web" value="web">
+                <label for="web">Web</label>
+                <input type="checkbox" id="mobile" name="mobile" value="mobile">
+                <label for="mobile">MOBILE</label>
+                <input type="checkbox" id="desktop" name="desktop" value="desktop">
+                <label for="desktop">DESKTOP</label>
+    
+            </p>
+            <p>
+                <label for="kota">Kota Asal :</label>
+                <select name="kota">
+                    <option value="semarang">Semarang</option>
+                    <option value="manado">Manado</option>
+                    <option value="yogyakarta">Yogyakarta</option>
+                    <option value="jakarta">Jakarta</option>
+                </select>
+            </p>
+            <p>
+                <section class="extra">
+                    <label for="extra">Apa yang Membuat Kami harus memilih Anda?:</label> <br>
+                    <textarea id="extra" name="extra" rows="10" cols="50" placeholder="Tulis jawaban Anda di sini"></textarea>
+                </section>
+            </p>
+            <p>
+                <button type="proses">proses</button>
+            </p>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
